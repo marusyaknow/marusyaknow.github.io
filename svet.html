@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="png/kar.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Svet</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/svet.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="remodel/remodal.css">
+    <link rel="stylesheet" href="remodel/remodal-default-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body>
+        <header>
+                <div id="logo" onclick="slowScroll('#top')">
+                 <a href="index.html" title="Главная"> <span>SVETEVENT</span></a>
+                </div>
+
+                <div id="about">
+                  <a href="index.html#main"     title="О нас"         onclick="slowScroll('#main')">О нас</a>
+                  <a href="index.html#overview" title="Спектр услуг" onclick="slowScroll('#overview')">Спектр услуг</a>
+                  <a href="foto.html"           title="Фото галерея"  onclick="slowScroll('#contacts')">Фото галерея</a>
+                  <a href="index.html#footer" title="Контакты"      onclick="slowScroll('#footer')">Контакты</a>
+                </div>
+        </header>
+
+        <div id="h22">
+            <h2 class="A">Световое обеспечение</h2>
+            <h2 class="B">Lighting</h2>
+        </div>
+
+        <div id="overview">
+
+        <div >
+            <p id="span" ><a  href="#modal" class="remodal__a"><img src="jpg/light1.jpg"  width="20%" alt="Световое обеспечение" title="Нажмите для увеличения"></a>SVETEVENT - команда творческих людей, занимающихся любимым
+                делом и специализирующихся на создании настроения и гармонии Вашего мероприятия!
+               Правильно подобранный свет поможет выделить нужные элементы декора,
+               украсит стены, пол и потолок зала, скроет недостатки помещения, 
+               эффектно дополнит свадебный танец или церемонию бракосочетания,
+                а также может стать полноценной декорацией Вашего мероприятия.<br>
+                SVETEVENT наполнит качественным светом любое торжество! </p>
+                  
+                  
+        </div>
+      </div>
+      <div class="remodal" data-remodal-id="modal">
+            <button data-remodal-action="close" class="remodal-close"></button>
+           
+            <img src="jpg/light1.jpg" height="120%" width="120%" alt="">
+           
+          </div>
+  
+  
+  
+  
+  
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="js/menu.js"></script>
+          <script src="js/jquery.min.js"></script>
+          <script src="remodel/remodal.min.js"></script>
+          <script src="js/js.js"></script>
+</body>
+</html>

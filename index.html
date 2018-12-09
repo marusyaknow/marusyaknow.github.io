@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="png/kar.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Svetevent</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/index.css">    
+</head>
+<body>
+        <header>
+                <div id="logo" onclick="slowScroll('#top')">
+                  <span>SVETEVENT</span>
+                </div>
+
+                <div id="about">
+                  <a href="#"         title="О нас"         onclick="slowScroll('#main')">О нас</a>
+                  <a href="#"         title="Спектр услуг" onclick="slowScroll('#overview')">Спектр услуг</a>
+                  <a href="foto.html" title="Фото галерея"  >Фото галерея</a>
+                  <a href="#"         title="Контакты"      onclick="slowScroll('#footer')">Контакты</a>
+                </div>
+        </header>
+
+        <div id="top" class="top" >
+          <div class="fullscreen-bg" style="background-blend-mode: darken">
+                  <div class="overlay">
+                      <h1 >SVETEVENT</h1>
+            <hr>
+            <h3 >Прокат светового и звукового оборудования</h3>
+                  </div>
+                  <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video" style="background-blend-mode: darken">
+                      <source src="mp4/index_z.mp4" type="video/mp4">
+                      <source src="mp4/index_z.mp4" type="video/webm">
+                  </video>
+              </div>
+            </div>
+
+
+        <div id="main" class="main">
+                <div class="intro">
+                  <h2>Наши услуги помогут вам!</h2>
+                  <span>Большой выбор всего, что может вам пригодиться</span>
+                </div>
+                <div class="text">
+                  <span>SVETEVENT предлагает решения по праздничному декору. Пусть твое мероприятие будет оригинальным!
+                    Для ярких событий команда SVETEVENT предлагает аплайтинг – одно из новейших направлений в сфере светового декора, 
+                    куда включены не только освещение сцены и зала, но и всевозможные варианты подсветки потолков, стен, отдельно взятых 
+                    объектов. В таком случае световые приборы дополняют все необходимые декорации в зале.
+                    </span>
+                </div>
+       </div>
+
+
+       <div id="overview" class="overview">
+          <h2>Спектр услуг</h2>  
+      
+          <a href="svet.html" >
+            <div class="img">
+              <img src="png/light.png" alt="svet" title="Нажмите для перехода на эту страницу" height="165px" >
+              <span title="Нажмите для перехода на эту страницу">Световое обеспечение</span>
+            </div>
+          </a>
+
+          <a href="sound.html">
+            <div class="img">
+              <img src="png/sound.png" alt="sound" title="Нажмите для перехода на эту страницу" height="165px">
+              <span title="Нажмите для перехода на эту страницу">Звуковое обеспечение</span>
+            </div>
+          </a>
+
+          <a href="proektor.html">
+            <div class="img">        
+              <img src="png/proektor.png" alt="proektor" title="Нажмите для перехода на эту страницу" height="165px" >
+              <span title="Нажмите для перехода на эту страницу">Проекционное оборудование</span>
+            </div>
+          </a>
+
+          <a href="karaoke.html"> 
+            <div class="img">
+              <img src="png/karaoke.png" alt="karaoke" title="Нажмите для перехода на эту страницу" height="165px" >
+               <span>Караоке</span>
+            </div>
+          </a>
+
+          <a href="bekline.html"> 
+            <div class="img">
+              <img src="png/bekline.png" alt="backline" title="Нажмите для перехода на эту страницу" height="165px">
+              <span title="Нажмите для перехода на эту страницу">Бэклайн</span>
+           </div>
+          </a>
+
+          <a href="effect.html"> 
+            <div class="img">
+              <img src="png/efect.png" alt="effect"  title="Нажмите для перехода на эту страницу" height="165px" width="15%">
+              <span title="Нажмите для перехода на эту страницу">Спецэффекты</span>
+            </div>
+          </a>            
+        </div>
+
+        <footer id="footer" class="footer">
+            <table>
+                <tr>
+                  <td id="img" width="40%" >
+                    <a href="https://www.instagram.com/svetevent.by/" title="Нажмите для перехода по ссылке"><img src="png/instagram.png" height="1.5%" width="11%"></a>
+                     <img src="png/viber.png" height="19%" width="11%" title="+375 25 6239875">
+                    <a href="https://vk.com/salllexdj" title="Нажмите для перехода по ссылке"><img src="png/vk1.png" height="1.4%" width="12%"></a>
+                  </td>
+                  <td id="text" width="35%">
+                    <h3>ДиДжей DJ в Минске</h3>
+                    <hr>
+                    <p>+375 25 6239875</p>
+
+                  </td>
+                  <td id="xmll" width="25%">
+                    <?xml version="1.0"?>
+                    <SPECIALIZATION>
+                    <FIO>Gundareva Masha</FIO>
+                    <FAC>ФИТ</FAC>
+                    <SPEC>ДЭиВИ</SPEC>
+                    <GR>10 группа</GR>
+                    <YEAR>2018 &copy;</YEAR>
+                      </SPECIALIZATION>
+                    </td>
+                </tr>
+              </table>
+         </footer>
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

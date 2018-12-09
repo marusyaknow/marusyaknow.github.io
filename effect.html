@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="png/kar.png" type="image/png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>effect</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/effect.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="remodel/remodal.css">
+    <link rel="stylesheet" href="remodel/remodal-default-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body>
+        <header>
+                <div id="logo" onclick="slowScroll('#top')">
+                 <a href="index.html" title="Главная"> <span>SVETEVENT</span></a>
+                </div>
+
+                <div id="about">
+                  <a href="index.html#main"     title="О нас"         onclick="slowScroll('#main')">О нас</a>
+                  <a href="index.html#overview" title="Спектр услуг" onclick="slowScroll('#overview')">Спектр услуг</a>
+                  <a href="foto.html"           title="Фото галерея"  onclick="slowScroll('#contacts')">Фото галерея</a>
+                  <a href="index.html#footer" title="Контакты"      onclick="slowScroll('#footer')">Контакты</a>
+                </div>
+        </header>
+
+        <div id="h22">
+          <h2 class="A">Спецэффекты</h2>
+          <h2 class="B">Special effects</h2>
+        </div>
+
+        <div id="overview">
+
+        <div >
+            <p id="span" ><a  href="#modal" class="remodal__a"><img id="img" src="jpg/effect1.jpg" alt="Special effects" title="Нажмите для увеличения"></a>Хорошим дополнением к вашему мероприятию станет шоу. 
+                В нашем арсенале Вы найдете самые разные спецэффекты, для самой разной тематики праздников, концертов, которые могут быть реализованы 
+                практически в любых условиях, будь то на улице или в небольшом помещении. Это и искристые холодные фонтаны, красочное конфетти, дерзкие огнеметы и огонь машины. 
+                Всё это поможет сделать важное для Вас событие особенным и действительно красивым.
+                </p>
+                  
+                  
+        </div>
+      </div>
+      <div class="remodal" data-remodal-id="modal">
+          <button data-remodal-action="close" class="remodal-close"></button>
+         
+          <img src="jpg/effect1.jpg" height="120%" width="120%" alt="">
+         
+        </div>
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="remodel/remodal.min.js"></script>
+        <script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+#h22{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 4%;
+    bottom: 50%;
+    line-height: 0px;
+    -webkit-filter: contrast(3);
+            filter: contrast(3);
+            
+  }
+  #h22 h2{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    margin: 0;
+    position: absolute;
+    color: #c1bef0;
+   
+  }
+  
+  @-webkit-keyframes anim {
+    0%   { opacity: 0; -webkit-filter: blur(15px); filter: blur(15px)}
+    10%  { opacity: 0; }
+    90%  { opacity: 1; }
+    100% { opacity: 1; -webkit-filter: blur(1px); filter: blur(1px)}
+  }
+  
+  @keyframes anim {
+    0%   { opacity: 0; -webkit-filter: blur(15px); filter: blur(15px)}
+    10%  { opacity: 0; }
+    90%  { opacity: 1; }
+    100% { opacity: 1; -webkit-filter: blur(1px); filter: blur(1px)}
+  }
+  .A{
+    /* -webkit-animation: anim 40s infinite alternate-reverse; */
+            animation: anim 10s infinite alternate-reverse;
+  }
+  .B{
+    /* -webkit-animation: anim 40s infinite alternate; */
+            animation: anim 10s infinite alternate;
+  }
